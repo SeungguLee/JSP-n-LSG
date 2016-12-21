@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="auto.com.check.MenuActivity">
+    <Button
+        android:id="@+id/btn_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="메인으로"/>
+    <Button
+        android:id="@+id/btn_memo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="메모"/>
+    <Button
+        android:id="@+id/btn_gps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GPS설정"/>
+    <Button
+        android:id="@+id/btn_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="종료"/>
+</LinearLayout>
